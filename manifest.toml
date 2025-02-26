@@ -81,8 +81,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "mariadb-server, deb1, deb2, php8.3-foo, php8.3-bar"
+    packages = "mariadb-server"
 
     [resources.database]
-    # This will automatically provision/deprovison a MySQL DB and store the corresponding credentials in settings $db_user, $db_name, $db_pwd
     type = "mysql"
