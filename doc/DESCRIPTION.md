@@ -1,1 +1,10 @@
-This is a dummy description of this app features
+### Features
+
+- notifications
+- calendar
+- multiple users
+- REST API
+- watchlist
+- docker image
+- import from Trakt
+- import from goodreads
